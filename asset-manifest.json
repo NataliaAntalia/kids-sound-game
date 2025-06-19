@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kids-sound-game/static/css/main.a1faecde.css",
-    "main.js": "/kids-sound-game/static/js/main.91752925.js",
+    "main.js": "/kids-sound-game/static/js/main.ba499bbe.js",
     "static/js/453.73541dac.chunk.js": "/kids-sound-game/static/js/453.73541dac.chunk.js",
     "static/media/lion.png": "/kids-sound-game/static/media/lion.c14653be4a300595d0d4.png",
     "static/media/main.jpg": "/kids-sound-game/static/media/main.342a8eed4cc96484bdff.jpg",
@@ -11,11 +11,11 @@
     "static/media/pig.png": "/kids-sound-game/static/media/pig.1ac411c3c6070ad34f73.png",
     "index.html": "/kids-sound-game/index.html",
     "main.a1faecde.css.map": "/kids-sound-game/static/css/main.a1faecde.css.map",
-    "main.91752925.js.map": "/kids-sound-game/static/js/main.91752925.js.map",
+    "main.ba499bbe.js.map": "/kids-sound-game/static/js/main.ba499bbe.js.map",
     "453.73541dac.chunk.js.map": "/kids-sound-game/static/js/453.73541dac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1faecde.css",
-    "static/js/main.91752925.js"
+    "static/js/main.ba499bbe.js"
   ]
 }

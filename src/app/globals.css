@@ -1,0 +1,20 @@
+@import "tailwindcss/preflight";
+
+@tailwind utilities;
+
+:root {
+    --pulse-color: rgba(128, 128, 128, 0.5);
+    --duration: 1.5s;
+}
+
+
+@keyframes pulse-border {
+    0%, 100% {
+        box-shadow: 0 0 0 0 var(--pulse-color);
+    }
+    50% {
+        box-shadow: 0 0 0 8px var(--pulse-color);
+    }
+}
+
+

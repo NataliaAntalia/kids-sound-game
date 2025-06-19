@@ -1,0 +1,11 @@
+
+.button {
+    background-color: rgb(253, 219, 178);
+    border-color: antiquewhite;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-size: large;
+
+}

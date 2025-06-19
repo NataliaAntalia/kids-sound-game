@@ -1,0 +1,71 @@
+.backgroundContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f2f2e6;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/* Заголовок сверху */
+.topContent {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Кнопка снизу */
+.bottomContent {
+    position: absolute;
+    rotate: inherit;
+    bottom: 10%;
+    left: 52%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.heading {
+    color: rgb(253, 219, 178);
+    font-size: clamp(24px, 5vw, 48px);
+
+}
+
+
+/* Маленькие экраны: до 400px */
+@media (max-width: 400px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .topContent {
+        top: 8%;
+    }
+
+    .bottomContent {
+        bottom: 8%;
+    }
+}
+
+/* Средние экраны: 401px - 768px */
+@media (min-width: 401px) and (max-width: 768px) {
+    .heading {
+        font-size: 32px;
+    }
+}
+
+/* Большие экраны: 769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .heading {
+        font-size: 40px;
+    }
+}
